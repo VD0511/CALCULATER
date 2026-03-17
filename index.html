@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculater">
+        <input type="text" id="display" readonly>
+        <div class="btn">
+            <button onclick="addtodisplay('0')">0</button>
+            <button onclick="addtodisplay('1')">1</button>
+            <button onclick="addtodisplay('2')">2</button>
+            <button onclick="addtodisplay('3')">3</button>
+            <button onclick="addtodisplay('4')">4</button>
+            <button onclick="addtodisplay('5')">5</button>
+            <button onclick="addtodisplay('6')">6</button>
+            <button onclick="addtodisplay('7')">7</button>
+            <button onclick="addtodisplay('8')">8</button>
+            <button onclick="addtodisplay('9')">9</button>
+            <button onclick="addtodisplay('+')">+</button>
+            <button onclick="addtodisplay('-')">-</button>
+            <button onclick="addtodisplay('*')">*</button>
+            <button onclick="addtodisplay('/')">/</button>
+            <button id="clear" onclick="backspace('C')">C</button>
+            <button id="allclear" onclick="cleardisplay('')">A.C</button>
+            <button id="plus" onclick="calculate('=')">=</button>
+        </div>
+        <h1>CASIO</h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
